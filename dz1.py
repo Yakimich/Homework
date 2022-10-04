@@ -1,11 +1,11 @@
-import psutil #для мониторинга системы
-import sys #позволяет напрямую работать с интерпритатором
+import psutil
+import sys
 import json
 import zipfile
-import datetime #для работы с датой и временем
+import datetime
 import os
-from psutil._common import bytes2human #Для перевода байтов в читабельный вид
-import xml.etree.ElementTree as ET #парсит и создает xml
+from psutil._common import bytes2human
+import xml.etree.ElementTree as ET
 
 def work(menu, switch):
     print_menu(menu)
